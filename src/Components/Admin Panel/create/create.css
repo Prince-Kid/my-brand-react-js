@@ -1,0 +1,67 @@
+.update {
+  position: relative;
+  margin: 0 auto;
+  min-height: calc(100vh - 5rem);
+  max-width: 70rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.blog-heading span {
+  color: darkcyan;
+}
+.blog-heading h2 {
+  font-size: 2.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+.createForm {
+  width: 80%;
+  height: 80%;
+  padding: 40px;
+  border: 4px solid darkcyan;
+  border-radius: 20px;
+}
+
+input {
+  width: 95%;
+  padding: 8px;
+}
+.ArticleTitle {
+  background-color: #fff;
+  border: 2px solid white;
+  color: black;
+}
+input[type="file"] {
+  background-color: #222;
+  color: white;
+}
+input::placeholder {
+}
+textarea {
+  width: 95%;
+  padding: 10px;
+}
+.create-btn {
+  width: 50%;
+  margin-top: 20px;
+  padding: 8px;
+  cursor: pointer;
+  color: #fff;
+  background: darkcyan;
+  border: none;
+  margin-left: 24%;
+  border-radius: 3px;
+  font-size: large;
+}
+#articleContent {
+  width: 95%;
+  border: 2px solid white;
+  color: black;
+}

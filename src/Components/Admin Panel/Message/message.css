@@ -1,0 +1,38 @@
+#feedback {
+  position: relative;
+  margin: 0 auto;
+  min-height: calc(100vh - 5rem);
+  max-width: 65rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.msg-container {
+  border: 2px solid #dddddd;
+  max-width: 300px;
+  min-height: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.sender-details {
+  float: left;
+  text-align: left;
+  display: flex;
+}
+.msg-message {
+  margin-top: 30px;
+  background-color: #dddddd;
+  color: #183153;
+  padding: 10px;
+}
+.feedback-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+.sender-names {
+  margin-bottom: 1px;
+}

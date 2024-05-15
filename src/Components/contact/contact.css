@@ -1,0 +1,82 @@
+#contactpage {
+  width: 100vw;
+  max-width: 65rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+  border: none;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+.input-control.succes .name {
+  border-color: #09c372;
+}
+.input-control.error input {
+  border-color: #ff3860;
+}
+.input-control .error {
+  color: #ff3860;
+  font-size: 13px;
+  height: 13px;
+  text-align: start;
+}
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(40, 40, 40);
+}
+input::placeholder {
+  color: rgb(117, 117, 117);
+}
+#email {
+  color: #fff;
+}
+
+.submitBtn {
+  background: darkcyan;
+  border: none;
+  padding: 0.75rem 3.5rem;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  cursor: pointer;
+  color: white;
+}
+.btn a {
+  color: black;
+}
+.btn a:hover {
+  color: white;
+}
